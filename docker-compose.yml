@@ -1,0 +1,6 @@
+nginx:
+  build: nginx
+  ports:
+    - "80:80"
+  volumes:
+    - "./nginx/html:/var/www/hopscotch/public_html" 

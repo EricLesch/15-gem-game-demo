@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>
+			Hopscotch Demo
+		</title>
+		<script src="scripts/app/main.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="css/core/all.css"/>
+	</head>
+    <style>
+		body {
+			background-color: #021d2f;
+		}
+
+		.controlsCSS {
+            border: 1px solid #c0c0c0;
+            background-color: #114262;
+			color: white;
+            font-size: 20px;
+		}
+
+		.controlsCSS input {
+			border: 3px solid white;
+		}
+
+		.newPuzzleButtonCSS {
+            background-color: white;
+            color: #021d2f;
+            border: 3px solid #c0c0c0;
+		}
+
+	</style>
+	<body>
+        <div class="line pvl controlsCSS mb15">
+            <div class="line">
+				<div class="unit phl">
+					Columns: <input type="number" name="Columns" min="1" max="100" class="ph5 columnInputJS">
+				</div>
+				<div class="unit mrl">
+					Rows: <input type="number" min="1" max="100" name="Rows" class="ph5 rowInputJS">
+				</div>
+				<div class="unit mrl">
+					TileSize: <input type="number" min="1" max="100" name="TileSize" class="ph5 tileSizeJS">
+				</div>
+                <div class="unit mrl">
+					Fast render: <input type="checkbox" class="fastRenderJS ph5"/>
+				</div>
+				<div class="unit newPuzzleButtonCSS newPuzzleButtonJS phm mrl">
+					New Puzzle
+				</div>
+			</div>
+        </div>
+
+        <div class="container mll"></div>
+	</body>
+</html>

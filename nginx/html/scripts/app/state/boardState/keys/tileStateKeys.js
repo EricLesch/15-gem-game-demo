@@ -1,0 +1,20 @@
+/**
+ * Enumeration which represents the different keys on the TILE_STATE object
+ * @type {{POSITION_COLUMN: string, NUMBER: string, RECTANGLE_STARTING_DRAG_X: string, RECTANGLE_STARTING_DRAG_Y: string, X: string, Y: string, WIDTH: string, IS_DRAGGING: string, HEIGHT: string, EVENT_DRAG_START_Y: string, EVENT_DRAG_START_X: string, POSITION_ROW: string}}
+ */
+const TILE_STATE_KEYS = {
+    NUMBER: "NUMBER",
+    X: "X",
+    Y: "Y",
+    WIDTH: "WIDTH",
+    HEIGHT: "HEIGHT",
+    IS_DRAGGING: "IS_DRAGGING",
+    EVENT_DRAG_START_X: "EVENT_DRAG_START_X",
+    EVENT_DRAG_START_Y: "EVENT_DRAG_START_Y",
+    RECTANGLE_STARTING_DRAG_X: "RECTANGLE_STARTING_DRAG_X",
+    RECTANGLE_STARTING_DRAG_Y: "RECTANGLE_STARTING_DRAG_Y",
+    POSITION_COLUMN: "POSITION_COLUMN",
+    POSITION_ROW: "POSITION_ROW"
+};
+
+module.exports = TILE_STATE_KEYS;
