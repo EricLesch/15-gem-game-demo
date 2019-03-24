@@ -25,7 +25,11 @@ COPY html /var/www/hopscotch/public_html
 
 RUN npm install --verbose
 
-RUN npm run-script build
+RUN npm install parcel -g
+
+RUN npm install jasmine -g
+
+RUN parcel build index.html 
 
 EXPOSE 80
 
