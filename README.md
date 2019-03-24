@@ -2,7 +2,7 @@
 
 This was a fun little project to demonstrate some interesting features in Javascript, including immutable data, full undo and redo, and making all possible user actions testable via unit tests (outside of the browser).
 
-![15-gem-demo](https://s3.amazonaws.com/hopscotch-demo-dependencies/15-gem-demo.gif)
+![15-gem-demo](15-gem-demo.gif)
 
 It's a basic implementation of the [15 Gem Game](https://en.wikipedia.org/wiki/15_puzzle).
 
