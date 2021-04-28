@@ -2,13 +2,13 @@
   "name": "hopscotch-demo",
   "version": "1.0.0",
   "description": "15 gem game",
-  "main": "main.js",
+  "main": "index.html",
   "author": "Eric Lesch",
   "license": "ISC",
   "devDependencies": {
     "jasmine": "3.3.1",
     "lodash": "4.17.11",
-    "parcel-bundler": "1.11.0"
+    "parcel-bundler": "1.12.3"
   },
   "dependencies": {
     "content.css": "3.2.0",

@@ -1,5 +1,4 @@
-
-const $ = require('jquery');
+import $ from 'jquery';
 
 const PuzzleContainer = require('./PuzzleContainer');
 
